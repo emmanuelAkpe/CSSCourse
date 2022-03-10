@@ -1,0 +1,34 @@
+*{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(43, 9, 43, 0.667);
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 20px coral;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1:hover{
+    color: aquamarine;
+    background-color: #0103;
+    font-size: 60px;
+}
+
+
+@media (max-width:500px) {
+    
+    body{
+        background-color: red;
+    }
+}
